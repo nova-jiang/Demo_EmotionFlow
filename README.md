@@ -21,11 +21,11 @@ Plan to meet everyone in summer 2025!
 ## 📄 Docs
 - [Concept Overview](docs/concept_overview.md)
 - [ChatGPT API Integration](api/chatgpt_integration.md)
-- [Wireframes](design/wireframes.pdf)
+- [firebase_structure.md](firebase/firebase_structure.md)
 
 ## 🤝 Contributing
 This is a solo-developed project for now. Happy to discuss ideas or collaborations!
 
-## 📬 Contact
-Nova Jiang  
-novaj22135@gmail.com
+## 📬 Made by
+- Nova Jiang, final-year CS student @ VU Amsterdam, passionate about building tech that supports mental well-being.
+- novaj22135@gmail.com

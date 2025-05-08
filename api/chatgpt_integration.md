@@ -40,6 +40,7 @@ EmotionFlow leverages the power of OpenAI’s GPT API to create a reflective, pe
   "intensity": 4
 }
 
+---
 
 ## 📡 Technical Setup
 

@@ -29,25 +29,21 @@ This app aims to empower individuals to understand their emotional patterns, ide
 - **AI Integration**: OpenAI's GPT-4 API for emotion recognition and personalized feedback
 - **Algorithms**: Graph-based analysis for emotional transitions and trigger networks
 
----
 
 ## 💡 Vision
 
 EmotionFlow is not just a tracker — it’s a gentle companion.  
 By giving users a safe, intelligent space to reflect on their emotions, this app aims to promote **self-awareness, resilience, and growth**.
 
----
 
 ## 📅 Timeline
 
 - MVP target: Summer 2025
 - Open for feedback, collaboration, and early testing suggestions!
 
----
 
 ## 👩‍💻 Made by 
 
 Nova, Final-year CS student @ VU Amsterdam, passionate about building tech that supports mental well-being.
 
----
 
