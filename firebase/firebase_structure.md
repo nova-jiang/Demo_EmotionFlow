@@ -10,7 +10,6 @@ We use Firebase Authentication to manage users.
 
 Each user is uniquely identified by a `uid`.
 
----
 
 ## 📚 Firestore Structure
 
@@ -35,8 +34,6 @@ Each user is uniquely identified by a `uid`.
 └─ GPTResponseRaw: { ... } (optional, for debugging or visualization)
 
 
----
-
 ## 📈 Weekly/Monthly Summary
 /users/{uid}/summaries/{summaryId}
 ├─ type: "weekly" | "monthly"
@@ -47,8 +44,6 @@ Each user is uniquely identified by a `uid`.
 └─ graphData: { nodes: [...], edges: [...] } (optional for emotion graphs)
 
 
-
----
 
 ## 📊 Emotion Graph 
 /users/{uid}/emotion_graph
@@ -63,8 +58,6 @@ Each user is uniquely identified by a `uid`.
 ]
 
 
----
-
 ## 🌐 GPT Request/Response Logging (Private)
 /gpt_logs/{logId}
 ├─ uid: "..."
@@ -74,9 +67,8 @@ Each user is uniquely identified by a `uid`.
 ├─ type: "emotion_analysis" | "chat" | "summary"
 
 > Stored in a separate collection for analytics or debugging.
-> Access to this data should be **strictly limited** via Firestore rules and/or Cloud Functions.
+> Access to this data should be strictly limited via Firestore rules and/or Cloud Functions.
 
----
 
 ## 🔐 Security Rules (Summary)
 
@@ -84,7 +76,6 @@ Each user is uniquely identified by a `uid`.
 - Journals and summaries are read/write only by the authenticated user
 - GPT logs (if stored) are not user-readable unless explicitly enabled
 
----
 
 ## 📌 Future Extensions
 
@@ -92,8 +83,6 @@ Each user is uniquely identified by a `uid`.
 - Emotion-based reminders (e.g., “write when stressed”)
 - Friend/support sharing settings
 - Offline storage sync
-
----
 
 ## 👩‍💻 Made by 
 
